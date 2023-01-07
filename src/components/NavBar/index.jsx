@@ -1,7 +1,11 @@
 import React from 'react';
+import CardWidget from '../CardWidget'; // IMPORTAMOS EL CARDWIDGET PARA PONERLO EN EL CARRITO ICONS
+
 
 const NavBar = () => {
+
   return (
+    
     <div className='container'>
       <nav className='nav'>
         <div className='nav_brand'>
@@ -15,7 +19,7 @@ const NavBar = () => {
             <a className='nav_link' href="#">categoria2</a>
           </li>
           <li>
-            <a className='nav_link' href="#">carrito</a>
+            <a className='nav_link' href="#"> <CardWidget/> </a>
           </li>
         </ul>
       </nav>
