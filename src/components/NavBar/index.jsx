@@ -20,7 +20,7 @@ export const NavBar = () => {
             <NavLink className='nav_link font-sans hover:font-serif' to='/categoria/Pulceras'>Pulceras</NavLink>
           </li>
           <li>
-            <NavLink className='nav_link' to='/Cart'> <CardWidget /> </NavLink>
+            <NavLink className='nav_link' to='Cart'> <CardWidget /> </NavLink>
           </li>
         </ul>
       </nav>
