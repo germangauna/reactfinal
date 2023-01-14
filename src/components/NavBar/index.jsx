@@ -14,10 +14,10 @@ export const NavBar = () => {
         </div>
         <ul className='nav_list'>
           <li>
-            <NavLink className='nav_link font-sans hover:font-serif' to='/categoria/Relojes'>Relojes</NavLink>
+            <NavLink className='nav_link font-sans hover:font-serif' to='/categoria/RelojHombre'>RelojHombre</NavLink>
           </li>
           <li>
-            <NavLink className='nav_link font-sans hover:font-serif' to='/categoria/Pulceras'>Pulceras</NavLink>
+            <NavLink className='nav_link font-sans hover:font-serif' to='/categoria/RelojMujer'>RelojMujer</NavLink>
           </li>
           <li>
             <NavLink className='nav_link' to='Cart'> <CardWidget /> </NavLink>
